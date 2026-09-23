@@ -31,5 +31,5 @@ config-handoff/
 ## Git / GitHub 状态
 
 - 本机 `/home/chaofeng` 不是 Git 仓库，`~/.tmux.conf`、`~/AGENTS.md`、`~/prompt/` 均未提交到 GitHub。
-- 本目录已 `git init` 为独立仓库并做了首次提交；如需同步到 GitHub，创建远端仓库后 `git remote add` + `git push` 即可（建议私有仓库，配置中含本机路径与使用习惯信息）。
+- 本目录已 `git init` 为独立仓库，远端为 `git@github.com:thumesn/config-handoff.git`（GitHub 用户 `thumesn`），已推送 `main` 分支。
 - 同步方式：本包是"快照副本"，源文件改动后需重新 `cp` 对应文件进本目录再提交。
